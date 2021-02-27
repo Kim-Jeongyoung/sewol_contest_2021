@@ -1,3 +1,4 @@
+
 .vid-container {
 	position: relative;
 	padding-bottom: 52%;
@@ -50,7 +51,8 @@
 }
 
 .vid-item .desc {
-	color: #21A1D2;
+	color: #fff;
+	/* color: #21A1D2; */
 	font-size: 15px;
 	margin-top:5px;
 }
