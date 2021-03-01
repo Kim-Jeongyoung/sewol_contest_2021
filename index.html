@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.ico">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>2021 세월 공감과 기억 온라인 공모전</title>
+  <title>2021 Sewol Art, Digital Design, and Media Competition</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/gaia.css" rel="stylesheet" />
@@ -45,13 +45,13 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right navbar-uppercase">
           <li>
-            <a href="mailto:oneheart4justice@gmail.com" target="_blank">Contact</a>
+            <a href="mailto:oneheart4justice@gmail.com">CONTACT</a>
           </li>
           <li>
-            <a href="#resources" target="_blank">Resources</a>
+            <a href="#resources">RESOURCES</a>
           </li>
           <li>
-            <a href="./index_en.html" target="_blank">English</a>
+            <a href="./index_en.html">ENGLISH</a>
             <!-- <a href="https://kim-jeongyoung.github.io/sewol_contest_2021_English/#" target="_blank">English</a> -->
           </li>
           <li class="dropdown">
@@ -60,22 +60,22 @@
             </a>
             <ul class="dropdown-menu dropdown-danger">
               <li>
-                <a href="https://www.facebook.com/1heart4justice"><i class="fa fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.facebook.com/1heart4justice" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
               </li>
               <li>
-                <a href="https://twitter.com/1heart4justice"><i class="fa fa-twitter"></i>Twitter</a>
+                <a href="https://twitter.com/1heart4justice" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
               </li>
               <li>
-                <a href="https://www.instagram.com/1heart4justice/"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="https://www.instagram.com/1heart4justice/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCj3O9hAJgMut6-16i32qTYA" class="btn btn-social btn-twitter btn-simple"><i class="fa fa-youtube"></i> Youtube
+                <a href="https://www.youtube.com/channel/UCj3O9hAJgMut6-16i32qTYA" class="btn btn-social btn-twitter btn-simple" target="_blank"><i class="fa fa-youtube"></i> Youtube
                 </a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="https://www.formpl.us/form/1931236001" target="_blank" class="btn btn-danger btn-fill">Submit</a>
+            <a href="" class="btn btn-danger btn-fill">Top</a>
           </li>
         </ul>
       </div>
@@ -91,18 +91,49 @@
       <div class="container">
         <div class="content">
           <div class="title-area">
-            <p>2021</p>
-            <h1 class="title-modern">세월 공감과 기억 </h1>
+            <h2>2021</h2>
+            <h1 class="title-modern">세월, 공감과 기억 </h1>
             <h2>온라인 공모전</h2>
 
             <div class="separator line-separator">♦</div>
+            <h5>세월호 참사 7주기를 맞이하여 희생자를 기억하고 참사의 의미를 되새기기 위해 공모전을 기획하였습니다.</h5>
           </div>
 
           <div class="button-get-started">
             <a href="https://www.formpl.us/form/1931236001" class="btn btn-white btn-fill btn-lg ">
-              Submit
+              공모접수
             </a>
           </div>
+
+
+          <!-- countdown -->
+
+          <h2 id="demo"></h2>
+          <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("March 31, 2021 23:59:00").getTime();
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+              // Get today's date and time
+              var now = new Date().getTime();
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+              // If the count down is over, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+          </script>
+
         </div>
 
       </div>
@@ -142,8 +173,8 @@
             </div>
             <h3>공모 일정</h3>
             <!-- <div class="text-align"> -->
-            <p class="description">접수기간: 3/1(월) 12:01 am - 3/28(일) 11:59 pm <br>수상작 발표:4/12 (월) 6:00 pm<br>시상식: 4/17/2021(토) 4pm <br>
-              *모든 시간 PDT
+            <p class="description">접수기간: 3/1(월) 12:01 am - 3/28(일) 11:59 pm <br>수상작 발표: 4/12 (월) 6:00 pm<br>시상식: 4/17 (토) 4pm <br>
+              * 미서부 시간
               <!-- </div> -->
           </div>
         </div>
@@ -156,9 +187,9 @@
             <h3>시상 내역</h3>
             <p class="description">
               <strong>Grand Prize:</strong> 상금 $1000 / 총 1명<br>
-              <strong>Gold:</strong>상금 $500 / 총 3명<br>
-              <strong>Silver:</strong> 상금 $250.00 / 총 6명<br>
-              <strong>Bronze:</strong> 상금 $100.00 / 총 6명<br>
+              <strong>Gold: </strong>상금 $500 / 총 3명<br>
+              <strong>Silver:</strong> 상금 $250 / 총 6명<br>
+              <strong>Bronze:</strong> 상금 $100 / 총 6명<br>
               당선작이 없다고 판단될 경우 당선작을 선정하지 않고 시상하지 않을 수 있음
             </p>
 
@@ -199,12 +230,12 @@
                         <div class="description">
                           <h3 class="title">아트/디자인분야</h3>
                           <div class="text-align">
-                            <p class="small-text">순수그림, 카드뉴스, 홍보포스터, 티셔츠 디자인, 팸플릿, 웹툰, 캐릭터, 로고, 등</p>
+                            <p class="small-text">순수그림, 카드뉴스, 홍보포스터,팸플릿, 웹툰, 캐릭터, 로고, 등</p>
                             <p class="description"> <strong>해상도:</strong> 300 dpi or higher <br>
                               <strong>용량:</strong> Max size: 20MB<br>
                               <strong>파일형: </strong> JPG(JPEG), PDF <br>
                               <strong>로고 사이즈: </strong>12 in X 12 in 또는 6 in X 6 in <br>
-                              ✻손으로 그린 그림을 스캔해서 제출할 경우 반드시 컬러로 제출해야 하며 화질이 선명해야 함.
+                              ✻ 손으로 그린 그림을 스캔해서 제출할 경우 반드시 컬러로 제출해야 하며 화질이 선명해야 함.
                             </p>
                           </div>
                         </div>
@@ -232,7 +263,7 @@
 
                               <strong>파일형식:</strong> mp4, avi, mov <br>
 
-                              나레이션 포함 가능. 단 자막 제공 필수 (한국말 나레이션: 영문 자막 필수, 영어 나레이션: 한글자막 필수)
+                              ✻ 나레이션 포함 가능. 단 자막 제공 필수 (한국말 나레이션: 영문 자막 필수, 영어 나레이션: 한글자막 필수)
                           </div>
                         </div>
                       </div>
@@ -249,14 +280,14 @@
                           <h3 class="title">유의사항</h3>
                           <div class="text-align">
                             <p class="description">
-                              1명당 분야별 1점 제출 가능. (동일 분야에 중복 응모 불가)<br>
-                              일단 접수된 작품은 최종본으로 간주되며, 마감 전이라도 재접수는 불가함.<br>
-                              응모 작품은 반드시 제시된 규격에 맞아야 하며, 그렇지 않을 경우 심사 대상에서 제외될 수 있음.<br>
-                              응모 작품은 다른 곳에 응모 또는 발표되지 않은, 새로운 순수 창작물에 한정함. 모방, 표절, 대리 작성된 작품으로 밝혀질 경우 심사에서 제외되며, 수상이 취소됨.<br>
-                              응모 작품은 저작권에 문제가 없어야 함. 표절, 복제 등 저작권을 침해한 사실이 확인 될 경우 심사에서 제외되고 수상이 취소되며, 분쟁 발생 시 응모자가 전적으로 이에대한 책임을 져야함.<br>
-                              응모된 모든 작품은 수상여부와 관계없이 반환하지 않고, 출판·전시·교육·홍보 등 공익적 목적으로 이용할 수 있음. 이 경우 수상작을 있는 그대로 이용하는 것 이외 2차적 저작물로 작성하여 이용하는 것을 포함.<br>
-                              타인 명의의 응모 접수는 불가하며 반드시 본명으로 응모해야 함.<br>
-                              심사는 각 분야별 전문가들이 비공개로 진행하며, 당선작이 없다고 판단될 경우 당선작을 선정하지 않을 수 있음.<br>
+                              1명당 분야별 1점 제출 가능. (동일 분야에 중복 응모 불가) /
+                              일단 접수된 작품은 최종본으로 간주되며, 마감 전이라도 재접수는 불가함. /
+                              응모 작품은 반드시 제시된 규격에 맞아야 하며, 그렇지 않을 경우 심사 대상에서 제외될 수 있음. /
+                              응모 작품은 다른 곳에 응모 또는 발표되지 않은, 새로운 순수 창작물에 한정함. 모방, 표절, 대리 작성된 작품으로 밝혀질 경우 심사에서 제외되며, 수상이 취소됨. /
+                              응모 작품은 저작권에 문제가 없어야 함. 표절, 복제 등 저작권을 침해한 사실이 확인 될 경우 심사에서 제외되고 수상이 취소되며, 분쟁 발생 시 응모자가 전적으로 이에대한 책임을 져야함. /
+                              응모된 모든 작품은 수상여부와 관계없이 반환하지 않고, 출판·전시·교육·홍보 등 공익적 목적으로 이용할 수 있음. 이 경우 수상작을 있는 그대로 이용하는 것 이외 2차적 저작물로 작성하여 이용하는 것을 포함. /
+                              타인 명의의 응모 접수는 불가하며 반드시 본명으로 응모해야 함. /
+                              심사는 각 분야별 전문가들이 비공개로 익명으로 진행하며, 당선작이 없다고 판단될 경우 당선작을 선정하지 않을 수 있음.
                           </div>
                         </div>
                       </div>
@@ -289,6 +320,8 @@
           <a href="#testimonial1" role="tab" data-toggle="tab">
             <div class="image-clients">
               <img alt="..." class="img-circle" src="assets/img/ship.jpg" />
+              <br><br>
+              <h6>개요</h6>
             </div>
           </a>
         </li>
@@ -296,6 +329,8 @@
           <a href="#testimonial2" role="tab" data-toggle="tab">
             <div class="image-clients">
               <img alt="..." class="img-circle" src="assets/img/picyellowribon.jpg" />
+              <br><br>
+              <h6>주최</h6>
             </div>
           </a>
         </li>
@@ -304,6 +339,9 @@
             <div class="image-clients">
               <img alt="..." class="img-circle" src="assets/img/416bench.jpg" />
             </div>
+            <br>세월호 기억 벤치<br>
+            <h6></h6>
+
           </a>
         </li>
       </ul>
@@ -312,22 +350,21 @@
 
         <div class="tab-pane active" id="testimonial2">
           <p class="description">
-            ‘샌프란시스코 공감’은 세월호 참사 7주기를 맞이하여 희생자들을 추모하며, 세월호 참사를 기억하고, 미국인/재외국민의 시각에서 바라보는 세월호 참사와 그 의미(개인적 또는 사회적)에 대해 알아보는 기회로 삼고자 영상 공모전을 기획하였습니다.
+            San Francisco "공감" (One Heart for Justice)은 사회 전반에 걸친 안전 시스템 확충, 사회적 약자들의 인권 등의 문제로 관심의 영역을 넓혀 나가면서, 사회 정의 실현과 보다 나은 미래를 만들어 가기 위해 함께 고민하고 공감하며 작은 실천을 통해 변화를 만들고자 2019년에는 주 캘리포니아에 정식 비영리단체로 501(c)(3) 등록하고 활동하고 있습니다.
           </p>
           </p>
         </div>
         <div class="tab-pane" id="testimonial1">
           <p class="description">
-            San Francisco "공감" (One Heart for Justice)은 사회 전반에 걸친 안전 시스템 확충, 사회적 약자들의 인권 등의 문제로 관심의 영역을 넓혀 나가면서, 사회 정의 실현과 보다 나은 미래를 만들어 가기 위해 함께 고민하고 공감하며 작은 실천을 통해 변화를 만들고자 2019년에는 주 캘리포니아에 정식 비영리단체로 501(c)(3) 등록하고 활동하고 있습니다.
+            ‘샌프란시스코 공감’은 세월호 참사 7주기를 맞이하여 희생자들을 추모하며, 세월호 참사를 기억하고, 미국인/재외국민의 시각에서 바라보는 세월호 참사와 그 의미(개인적 또는 사회적)에 대해 알아보는 기회로 삼고자 영상 공모전을 기획하였습니다.
           </p>
         </div>
         <div class="tab-pane" id="testimonial3">
-          <p class="description">San Francisco “공감” (One Heart for Justice)은 2014년 세월호 참사를 통해 한국 사회에 만연해 있는 부정/부패, 불의를 목도한 후, 이를 방관해 온 사회적 책임을 통감하며 이 사건의 철저한 진상 규명과 책임자 처벌, 이같은 인재형 참사의 재발 방지를 통한 안전한 사회 건설을 위해 유가족과 함께 아파하고 문제 해결을 위해 작은 힘을 보태고자 뜻을 같이
-            했던 사람들의 모임으로 시작하였습니다.</p>
+          <p class="description">‘샌프란시스코 공감’은 4.16 재단의 기억과 약속 공모사업으로 세월호 참사를 잊지 않기 위한 '기억 벤치'를 북 캘리포니아 '팔로알토 미췔파크'에 2019년 설치하였습니다.
+            이 벤치는 잠시 쉬어가는 사람들에게 세월호 참사를 알리고 따뜻하게 안아주는 휴식의 공간이 될 것입니다.</p>
         </div>
 
       </div>
-
     </div>
   </div>
 
@@ -430,12 +467,13 @@
         <h2 class="text-black">심사위원</h2>
         <div class="separator line-separator">♦</div>
         <p class="description">
-          정상진 DMZ 국제다큐멘터리영화제 집행위원장 <br>
           김종기 4.16 세월호참사가족협의회 <br>
           김순길 4.16 세월호참사가족협의회 <br>
           윤경희 4.16 세월호참사가족협의회 <br>
           한홍덕 4.16 세월호참사가족협의회 <br>
-          김낙경 샌프란시스코 공감<br>
+          정상진 DMZ 국제다큐멘터리영화제 집행위원장 <br>
+          임성빈 샌프란시스코 공감 <br>
+          이수미 샌프란시스코 공감<br>
         </p>
       </div>
 
